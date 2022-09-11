@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
+import WeatherIcon from "./WeatherIcon";
+
 import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props) {
@@ -22,7 +23,7 @@ export default function WeatherInfo(props) {
         </div>
 
         <div className="col-md-4">
-          <img src={props.info.icon} alt={props.info.description}></img>
+          <WeatherIcon code={props.info.icon} size={120} />
           <h2>
             <span className="temperatur">{props.info.temperature}</span>
             <span className="units">°C</span>

@@ -1,14 +1,12 @@
 import "./App.css";
-import Search from "./Search";
+import Weather from "./Weather";
 import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <h1>Weather App</h1>
-
-        <Search />
+      <div className="container ">
+        <Weather />
 
         <Footer />
       </div>

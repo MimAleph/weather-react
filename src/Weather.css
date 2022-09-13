@@ -65,9 +65,8 @@ ul {
   top: -48px;
   font-size: 16px;
 }
-.weather img {
+.weather canvas {
   position: relative;
-  top: -16px;
-
+  top: 4px;
   margin: 0 auto;
 }

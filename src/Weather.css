@@ -64,7 +64,11 @@ ul {
 span.unit {
   position: relative;
   top: -48px;
-  font-size: 16px;
+  font-size: 12px;
+}
+span.unit a {
+  color: rgb(113, 49, 208);
+  text-decoration: none;
 }
 .weather canvas {
   position: relative;

@@ -51,8 +51,9 @@ ul {
   padding: 0px;
 }
 
-.weather h2 {
+.weatherTemperature {
   padding: 0;
+  margin-top: 24px;
 }
 .weather .temperatur {
   font-size: 72px;
@@ -60,7 +61,7 @@ ul {
   position: relative;
   top: -8px;
 }
-.units {
+span.unit {
   position: relative;
   top: -48px;
   font-size: 16px;
